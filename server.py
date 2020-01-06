@@ -7,11 +7,10 @@ from __future__ import print_function
 
 import argparse
 import json
-import logging
 import sys
 import re
 import requests
-from flask import Flask, Response, jsonify, request
+from flask import Flask, request
 from flask_mail import Mail, Message
 from subscriber import Subscriber
 import atexit
@@ -55,7 +54,7 @@ mail = Mail(application)
 cron = BlockingScheduler()
 cron.start()
 
-@cron.scheduled_job('interval',id='my_job_id',seconds=args.interval)
+@cron.scheduled_job('interval',id='my_job_id',minutes=args.interval)
 def send_mail():
 	try:
 		with open('tracker.json', 'r') as f:
@@ -104,7 +103,7 @@ atexit.register(lambda: cron.shutdown(wait=False))
 
 
 @application.route("/", methods=["POST"])
-def subscribe():
+def subscriber():
     requestData = request.json
     product = Subscriber(requestData.url,requestData.email)
     product.subscribe()
