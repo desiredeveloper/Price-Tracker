@@ -1,10 +1,38 @@
 {
     "OPSEMDH6NY8AHUTF": {
         "mailing_list": [
-            "it2@toy.com",
-            "it1@toy.com"
+            "sjain0615@gmail.com"
+        ],
+        "global_min": "5499",
+        "URL": "https://www.flipkart.com/microsoft-kw900140-windows-10-home-oem-dvd-64-bit/p/itmemdh72fh4cxp5?pid=OPSEMDH6NY8AHUTF&lid=LSTOPSEMDH6NY8AHUTFHLGWQF&marketplace=FLIPKART&fm=productRecommendation%2FcrossSelling&iid=R%3Ac%3Bp%3ACOMFHKKHVGHUBYHW%3Bl%3ALSTCOMFHKKHVGHUBYHWZINLQQ%3Bpt%3App%3Buid%3A7d5c521d-d2f3-de6f-02ac-31ebe24f03b5%3B.OPSEMDH6NY8AHUTF.LSTOPSEMDH6NY8AHUTFHLGWQF&ppt=ProductPage&ppn=ProductPage&ssid=t19lcptf7vfwq3gg1577699839675&otracker=pp_reco_Bought%2BTogether_40_33.productCard.PMU_TAB_Microsoft%2BKW900140%2BWindows%2B10%2BHome%2BOem%2BDVD%2B64%2Bbit_OPSEMDH6NY8AHUTF.LSTOPSEMDH6NY8AHUTFHLGWQF_productRecommendation%2FcrossSelling_0&otracker1=pp_reco_PINNED_productRecommendation%2FcrossSelling_Bought%2BTogether_GRID_productCard_cc_40_NA_view-all&cid=OPSEMDH6NY8AHUTF.LSTOPSEMDH6NY8AHUTFHLGWQF",
+        "2020-01-07": [
+            {
+                "min": "5499"
+            },
+            {
+                "2020-01-07 15:13:02.874305": "5499"
+            },
+            {
+                "2020-01-07 15:14:03.345498": "5499"
+            },
+            {
+                "2020-01-07 15:15:02.992324": "5499"
+            }
+        ],
+        "2020-01-08": [
+            {
+                "min": "5499"
+            },
+            {
+                "2020-01-08 01:18:20.507214": "5499"
+            }
+        ]
+    },
+    "COMFHKKHVGHUBYHW": {
+        "mailing_list": [
+            "sjain0615@gmail.com"
         ],
         "global_min": "inf",
-        "URL": "https://www.flipkart.com/microsoft-kw900140-windows-10-home-oem-dvd-64-bit/p/itmemdh72fh4cxp5?pid=OPSEMDH6NY8AHUTF&lid=LSTOPSEMDH6NY8AHUTFHLGWQF&marketplace=FLIPKART&fm=productRecommendation%2FcrossSelling&iid=R%3Ac%3Bp%3ACOMFHKKHVGHUBYHW%3Bl%3ALSTCOMFHKKHVGHUBYHWZINLQQ%3Bpt%3App%3Buid%3A7d5c521d-d2f3-de6f-02ac-31ebe24f03b5%3B.OPSEMDH6NY8AHUTF.LSTOPSEMDH6NY8AHUTFHLGWQF&ppt=ProductPage&ppn=ProductPage&ssid=t19lcptf7vfwq3gg1577699839675&otracker=pp_reco_Bought%2BTogether_40_33.productCard.PMU_TAB_Microsoft%2BKW900140%2BWindows%2B10%2BHome%2BOem%2BDVD%2B64%2Bbit_OPSEMDH6NY8AHUTF.LSTOPSEMDH6NY8AHUTFHLGWQF_productRecommendation%2FcrossSelling_0&otracker1=pp_reco_PINNED_productRecommendation%2FcrossSelling_Bought%2BTogether_GRID_productCard_cc_40_NA_view-all&cid=OPSEMDH6NY8AHUTF.LSTOPSEMDH6NY8AHUTFHLGWQF"
+        "URL": "https://www.flipkart.com/acer-swift-3-core-i5-8th-gen-8-gb-512-gb-ssd-windows-10-home-2-graphics-sf314-55g-thin-light-laptop/p/itmfhkkhgg2yvgzy?pid=COMFHKKHVGHUBYHW&lid=LSTCOMFHKKHVGHUBYHWZINLQQ&marketplace=FLIPKART&spotlightTagId=BestsellerId_6bo%2Fb5g&srno=s_1_1&otracker=AS_QueryStore_HistoryAutoSuggest_0_3_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_0_3_na_na_na&fm=SEARCH&iid=109d958a-2995-42b5-ab34-7b6bd890970b.COMFHKKHVGHUBYHW.SEARCH&ppt=sp&ppn=sp&ssid=t19lcptf7vfwq3gg1577699839675&qH=1018855ab06abc0d"
     }
 }
