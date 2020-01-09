@@ -32,7 +32,7 @@ def index():
     return render_template('index.html')
 
 @application.route("/data", methods=["GET"])
-def index():
+def getData():
     with open('tracker.json', 'r') as f:
         trackData = json.load(f)
         return trackData
