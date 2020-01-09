@@ -15,7 +15,7 @@ parser.add_argument(
 	"--classId", default="_1vC4OE _3qQ9m1", help="Class for scrapping")
 parser.add_argument(
 	"--interval", 
-	default=10, 
+	default=15, 
 	help="Time interval between each notification(eg. 15)", 
 	type=int)
 args = parser.parse_args(sys.argv[1:])

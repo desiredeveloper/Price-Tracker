@@ -8,6 +8,7 @@ from __future__ import print_function
 import argparse
 import json
 import sys
+import os
 from flask import Flask, request, render_template
 from subscriber import Subscriber
 
@@ -40,7 +41,8 @@ def subscriber():
     return render_template('thanks.html',message=message,url=URL)
 
 def main():
-    application.run(host=args.host, port=args.port, debug=args.debug)
+    port = int(os.environ.get('PORT', args.port))
+    application.run(host=args.host, port=port, debug=args.debug)
 	
 if __name__ == "__main__":
 	main()
