@@ -3,6 +3,7 @@ import json
 import re
 import sys
 import argparse
+import urllib.request
 import requests
 import atexit
 from bs4 import BeautifulSoup 
@@ -25,8 +26,10 @@ cron = BlockingScheduler()
 @cron.scheduled_job('interval',id='my_job_id',minutes=args.interval)
 def send_mail():
 	try:
-		with open('tracker.json', 'r') as f:
-			trackData = json.load(f)
+		with urllib.request.urlopen("https://laptophunt.herokuapp.com/data") as url:
+			r = requests.get(trackData[pid]['URL']) 
+
+			trackData = json.loads(url.read().decode())
 
 			today = date.today()
 			yesterday = str(today-timedelta(days=1))
@@ -66,9 +69,7 @@ def send_mail():
 					server.login('it1402713094@gmail.com','flaskapp')
 					message = 'Subject: {}\n\n{}'.format("Update on product-ID : "+pid, msg)
 					server.sendmail('it1402713094@gmail.com',recv_list,message)
-				with open('tracker.json', 'w', encoding='utf-8') as f:
-					json.dump(trackData, f, ensure_ascii=False, indent=4)
-
+				requests.post("https://laptophunt.herokuapp.com/setdata", data = trackData)
                     
 	except Exception as e:
 		print(str(e))

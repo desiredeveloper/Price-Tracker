@@ -37,6 +37,13 @@ def getData():
         trackData = json.load(f)
         return trackData
 
+@application.route("/setdata", methods=["POST"])
+def setData():
+    trackData = request.get_json()
+    with open('tracker.json', 'w', encoding='utf-8') as f:
+        json.dump(trackData, f, ensure_ascii=False, indent=4)
+    return 200
+
 @application.route("/subscribe", methods=["POST"])
 def subscriber():
     URL = request.form['url']
