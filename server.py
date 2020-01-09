@@ -31,6 +31,12 @@ application = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@application.route("/data", methods=["GET"])
+def index():
+    with open('tracker.json', 'r') as f:
+        trackData = json.load(f)
+        return trackData
+
 @application.route("/subscribe", methods=["POST"])
 def subscriber():
     URL = request.form['url']
