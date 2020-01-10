@@ -8,8 +8,13 @@ class Subscriber:
 
 
     def subscribe(self):
-
-        pid = re.findall("(?<=pid=)(.*?&)",self.URL)[0][:-1]
+        try:
+            if(re.match("^(http:\/\/|https:\/\/)",self.URL)):
+                pid = re.findall("(?<=pid=)(.*?&)",self.URL)[0][:-1]
+            else:
+                return "URL should start with http or https"
+        except Exception as e:
+            return "Please enter a valid Flipkart URL"
 
         with open('tracker.json', 'r') as f:
             trackData = json.load(f)

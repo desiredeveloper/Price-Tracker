@@ -49,8 +49,11 @@ def subscriber():
     URL = request.form['url']
     email = request.form['email']
     product = Subscriber(URL,email)
-    product.subscribe()
-    message = "Thanks for subscribing for updates on product on email-ID "+ email
+    err = product.subscribe()
+    if err:
+        message = err
+    else:
+        message = "Thanks for subscribing for updates on product on email-ID "+ email
     return render_template('thanks.html',message=message,url=URL)
 
 def main():
