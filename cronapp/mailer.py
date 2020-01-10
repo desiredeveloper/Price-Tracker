@@ -28,9 +28,9 @@ def send_mail():
 		resp = requests.get("https://laptophunt.herokuapp.com/data")
 		trackData = resp.json()
 
-		today = date.today()
-		yesterday = str(today-timedelta(days=1))
-		str_today = str(today)
+		# today = date.today()
+		# yesterday = str(today-timedelta(days=1))
+		# str_today = str(today)
 
 		for pid in trackData:
 			msg = 0
@@ -40,14 +40,14 @@ def send_mail():
 			price = soup.find('div', attrs = {'class':args.classId}).text
 			price = re.sub("[\D]","",price)
 
-			x = str(datetime.now())
+			# x = str(datetime.now())
 
-			if trackData[pid].get(str_today) is None:
-				trackData[pid][str_today] = [{"min":str(float("inf"))}]
+			# if trackData[pid].get(str_today) is None:
+			# 	trackData[pid][str_today] = [{"min":str(float("inf"))}]
 
-			trackData[pid][str_today].append({x:price})
+			# trackData[pid][str_today].append({x:price})
 
-			trackData[pid][str_today][0]['min'] = min(trackData[pid][str_today][0]['min'], price)
+			# trackData[pid][str_today][0]['min'] = min(trackData[pid][str_today][0]['min'], price)
 
 			# if(trackData[pid][yesterday][0]["min"] > trackData[pid][str_today][0]["min"]):
 			# 	msg = "Better price than yesterday for \n" + trackData[pid]['URL']+ " The price now is Rs."+price

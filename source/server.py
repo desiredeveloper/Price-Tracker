@@ -48,7 +48,8 @@ def setData():
 def subscriber():
     URL = request.form['url']
     email = request.form['email']
-    product = Subscriber(URL,email)
+    threshold = request.form['price']
+    product = Subscriber(URL,email,threshold)
     err = product.subscribe()
     if err:
         message = err

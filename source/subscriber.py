@@ -2,9 +2,10 @@ import re
 import json
 
 class Subscriber:
-    def __init__(self,url,email):
+    def __init__(self,url,email,threshold):
         self.URL = url
         self.email = email
+        self.threshold = threshold
 
 
     def subscribe(self):
@@ -22,7 +23,7 @@ class Subscriber:
             if trackData.get(pid) is None:
                 trackData[pid] = {}
                 trackData[pid]['mailing_list'] = []
-                trackData[pid]['global_min'] = str(float("inf"))
+                trackData[pid]['global_min'] = self.threshold if self.threshold else str(float("inf"))
                 trackData[pid]['URL'] = self.URL
 
             trackData[pid]['mailing_list'].append(self.email)

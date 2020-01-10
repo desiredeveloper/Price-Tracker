@@ -1,44 +1,87 @@
 {
-    "OPSEMDH6NY8AHUTF": {
-        "mailing_list": [
-            "sjain0615@gmail.com"
-        ],
-        "global_min": "5499",
-        "URL": "https://www.flipkart.com/microsoft-kw900140-windows-10-home-oem-dvd-64-bit/p/itmemdh72fh4cxp5?pid=OPSEMDH6NY8AHUTF&lid=LSTOPSEMDH6NY8AHUTFHLGWQF&marketplace=FLIPKART&fm=productRecommendation%2FcrossSelling&iid=R%3Ac%3Bp%3ACOMFHKKHVGHUBYHW%3Bl%3ALSTCOMFHKKHVGHUBYHWZINLQQ%3Bpt%3App%3Buid%3A7d5c521d-d2f3-de6f-02ac-31ebe24f03b5%3B.OPSEMDH6NY8AHUTF.LSTOPSEMDH6NY8AHUTFHLGWQF&ppt=ProductPage&ppn=ProductPage&ssid=t19lcptf7vfwq3gg1577699839675&otracker=pp_reco_Bought%2BTogether_40_33.productCard.PMU_TAB_Microsoft%2BKW900140%2BWindows%2B10%2BHome%2BOem%2BDVD%2B64%2Bbit_OPSEMDH6NY8AHUTF.LSTOPSEMDH6NY8AHUTFHLGWQF_productRecommendation%2FcrossSelling_0&otracker1=pp_reco_PINNED_productRecommendation%2FcrossSelling_Bought%2BTogether_GRID_productCard_cc_40_NA_view-all&cid=OPSEMDH6NY8AHUTF.LSTOPSEMDH6NY8AHUTFHLGWQF",
-        "2020-01-07": [
-            {
-                "min": "5499"
-            },
-            {
-                "2020-01-07 15:13:02.874305": "5499"
-            },
-            {
-                "2020-01-07 15:14:03.345498": "5499"
-            },
-            {
-                "2020-01-07 15:15:02.992324": "5499"
-            }
-        ],
-        "2020-01-08": [
-            {
-                "min": "5499"
-            },
-            {
-                "2020-01-08 01:18:20.507214": "5499"
-            },
-            {
-                "2020-01-08 01:29:55.664973": "5499"
-            },
-            {
-                "2020-01-08 01:39:55.630930": "5499"
-            }
-        ]
-    },
-    "COMFHKKHVGHUBYHW": {
-        "mailing_list": [
-            "sjain0615@gmail.com"
-        ],
-        "global_min": "inf",
-        "URL": "https://www.flipkart.com/acer-swift-3-core-i5-8th-gen-8-gb-512-gb-ssd-windows-10-home-2-graphics-sf314-55g-thin-light-laptop/p/itmfhkkhgg2yvgzy?pid=COMFHKKHVGHUBYHW&lid=LSTCOMFHKKHVGHUBYHWZINLQQ&marketplace=FLIPKART&spotlightTagId=BestsellerId_6bo%2Fb5g&srno=s_1_1&otracker=AS_QueryStore_HistoryAutoSuggest_0_3_na_na_na&otracker1=AS_QueryStore_HistoryAutoSuggest_0_3_na_na_na&fm=SEARCH&iid=109d958a-2995-42b5-ab34-7b6bd890970b.COMFHKKHVGHUBYHW.SEARCH&ppt=sp&ppn=sp&ssid=t19lcptf7vfwq3gg1577699839675&qH=1018855ab06abc0d"
+    "COMFG9YREHZ9VBKH": {
+      "URL": "https://www.flipkart.com/asus-rog-strix-g-core-i5-9th-gen-8-gb-1-tb-hdd-256-gb-ssd-windows-10-home-4-graphics-nvidia-geforce-gtx-1650-g531gt-bq024t-gaming-laptop/p/itmfg9yrrazqt7dk?pid=COMFG9YREHZ9VBKH&fm=organic&ssid=zzdg1uehfk0000001578652885016", 
+      "global_min": "55000", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFG9YRHZCDMGWK": {
+      "URL": "https://www.flipkart.com/asus-rog-strix-g-core-i5-9th-gen-8-gb-1-tb-hdd-windows-10-home-4-gb-graphics-nvidia-geforce-gtx-1050-g531gd-bq036t-gaming-laptop/p/itmd7367891efb46?pid=COMFG9YRHZCDMGWK&fm=organic&ppt=Read%20Review&ppn=Read%20Review&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "52000", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFG9YRJBPRGER9": {
+      "URL": "https://www.flipkart.com/asus-rog-strix-g-core-i5-9th-gen-8-gb-512-gb-ssd-windows-10-home-4-graphics-nvidia-geforce-gtx-1650-g531gt-bq002t-gaming-laptop/p/itmfg9yrygyxdxwm?pid=COMFG9YRJBPRGER9&fm=organic&ppt=Read%20Review&ppn=Read%20Review&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "55001", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFGJ4HHX88YGV5": {
+      "URL": "https://www.flipkart.com/msi-gf-core-i5-9th-gen-8-gb-1-tb-hdd-windows-10-home-4-gb-graphics-nvidia-geforce-gtx-1050-ti-gf63-thin-9rcx-648in-gaming-laptop/p/itmfgj4haenzmatt?pid=COMFGJ4HHX88YGV5&otracker=wishlist&lid=LSTCOMFGJ4HHX88YGV54FAGMV&iid=60ba9625-cc25-4cbc-aabf-b2cddef8607b.COMFGJ4HHX88YGV5.PRODUCTSUMMARY&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "49990", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFGJ4HXJHF5JNA": {
+      "URL": "https://www.flipkart.com/msi-gf-core-i5-9th-gen-8-gb-1-tb-hdd-windows-10-home-4-gb-graphics-nvidia-geforce-gtx-1050-gf63-thin-9rc-629in-gaming-laptop/p/itmfgj4hzhhhpucn?pid=COMFGJ4HXJHF5JNA&fm=organic&ppt=Read%20Review&ppn=Read%20Review&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "47000", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFH4G4WEXSHPFG": {
+      "URL": "https://www.flipkart.com/asus-vivobook-gaming-core-i5-8th-gen-8-gb-512-gb-ssd-windows-10-home-4-graphics-nvidia-geforce-gtx-1050-f571gd-bq259t-laptop/p/itm2bd751ecfceb3?pid=COMFH4G4WEXSHPFG&otracker=wishlist&lid=LSTCOMFH4G4WEXSHPFGQSUCYU&iid=a2a1328e-c98f-41c4-a4eb-6fb055e138cb.COMFH4G4WEXSHPFG.PRODUCTSUMMARY&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "49000", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFHBWSTWBPNGYA": {
+      "URL": "https://www.flipkart.com/msi-gf63-thin-core-i7-9th-gen-8-gb-512-gb-ssd-windows-10-home-4-graphics-nvidia-geforce-gtx-1650-maxq-9sc-460in-gaming-laptop/p/itmaeda9251d64fd?pid=COMFHBWSTWBPNGYA&fm=organic&ppt=Read%20Review&ppn=Read%20Review&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "63001", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFHNY8HYPHY7ZH": {
+      "URL": "https://www.flipkart.com/acer-nitro-5-core-i5-9th-gen-8-gb-1-tb-hdd-windows-10-home-3-gb-graphics-nvidia-geforce-gtx-1050-an515-54-563y-an515-54-52h2-gaming-laptop/p/itmcc400f97b66f1?pid=COMFHNY8HYPHY7ZH&otracker=wishlist&lid=LSTCOMFHNY8HYPHY7ZHIIO4JI&iid=66d3e0cd-0658-4aad-a4a4-ead2f8168a73.COMFHNY8HYPHY7ZH.PRODUCTSUMMARY&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "45000", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFHNY8Z7C9DGU6": {
+      "URL": "https://www.flipkart.com/acer-nitro-5-core-i5-9th-gen-8-gb-1-tb-hdd-256-gb-ssd-windows-10-home-4-graphics-nvidia-geforce-gtx-1650-an515-54-521n-gaming-laptop/p/itm5991f03d010e4?pid=COMFHNY8Z7C9DGU6&otracker=wishlist&lid=LSTCOMFHNY8Z7C9DGU6JLJSNJ&iid=3c79ee8f-7150-487c-8c83-b89b63903346.COMFHNY8Z7C9DGU6.PRODUCTSUMMARY&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "53491", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFHSG9VJWFRYUH": {
+      "URL": "https://www.flipkart.com/lenovo-ideapad-l340-core-i5-9th-gen-8-gb-1-tb-hdd-windows-10-home-4-gb-graphics-nvidia-geforce-gtx-1650-l340-15irh-n18p-gaming-laptop/p/itm1a92389f24715?pid=COMFHSG9VJWFRYUH&otracker=wishlist&lid=LSTCOMFHSG9VJWFRYUHNLFTIX&iid=9bd9448e-272a-4aa0-93b8-e66637969535.COMFHSG9VJWFRYUH.PRODUCTSUMMARY&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "55000", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFJFSZMYHR95G2": {
+      "URL": "https://www.flipkart.com/acer-nitro-5-core-i5-8th-gen-8-gb-1-tb-hdd-256-gb-ssd-windows-10-home-4-graphics-nvidia-geforce-gtx-1050-ti-an515-52-gaming-laptop/p/itmfjfszkyykk2dg?pid=COMFJFSZMYHR95G2&otracker=wishlist&lid=LSTCOMFJFSZMYHR95G2EIWIIB&iid=b9a3cfb7-861f-44a1-8302-791c8a16acd6.COMFJFSZMYHR95G2.PRODUCTSUMMARY&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "53990", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
+    }, 
+    "COMFJK26MJ35E4SZ": {
+      "URL": "https://www.flipkart.com/acer-predator-triton-300-core-i5-9th-gen-8-gb-1-tb-hdd-256-gb-ssd-windows-10-home-4-graphics-nvidia-geforce-gtx-1650-pt315-51-5974-gaming-laptop/p/itmf05d5a2ef27e8?pid=COMFJK26MJ35E4SZ&fm=organic&ppt=Read%20Review&ppn=Read%20Review&ssid=5fp8ta8r9p60hc741578651471624", 
+      "global_min": "57000", 
+      "mailing_list": [
+        "sjain0615@gmail.com"
+      ]
     }
-}
+  }
+  
