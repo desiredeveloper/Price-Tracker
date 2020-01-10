@@ -1,7 +1,7 @@
 `priceTracker` is the easiest way to subscribe to email notification for Flipkart price drop alerts.
 
-![landing page](img/landing.png)
-![success page](img/success.png)
+![landing page](img/landing.jpeg)
+![success page](img/success.jpeg)
 
 
 **Demo**
@@ -64,7 +64,7 @@ If you find a bug or like to request a new function, feel free to do so by openi
 4. Scrap amazon products using same app by giving appropriate class.
 
 
-## [License](https://github.com/desiredeveloper/Price-Tracker/blob/master/LICENSE.md)
-
+**[License](https://github.com/desiredeveloper/Price-Tracker/blob/master/LICENSE.md)**
+---
 MIT © [Shreyansh Jain ](https://github.com/desiredeveloper)
 
