@@ -63,9 +63,10 @@ def send_mail():
 					server.ehlo()
 					server.starttls()
 					server.ehlo()
-					server.login('it1402713094@gmail.com','flaskapp')
-					message = 'Subject: {}\n\n{}'.format("Update on product-ID : "+pid, msg)
-					server.sendmail('it1402713094@gmail.com',recv_list,message)
+					# sender's email credentials
+					server.login('email@gmail.com','password')
+					message = 'From: {}\nSubject: {}\n\n{}'.format("Price Tracker","Update on product-ID : "+pid, msg)
+					server.sendmail('email@gmail.com',recv_list,message)
 				with open('tracker.json', 'w', encoding='utf-8') as f:
 					json.dump(trackData, f, ensure_ascii=False, indent=4)
 
