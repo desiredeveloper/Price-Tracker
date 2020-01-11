@@ -64,7 +64,7 @@ def send_mail():
 				server.starttls()
 				server.ehlo()
 				server.login('it1402713094@gmail.com','flaskapp')
-				message = 'Subject: {}\n\n{}'.format("Update on product-ID : "+pid, msg)
+				message = 'From: {}\nSubject: {}\n\n{}'.format("Price Tracker","Update on product-ID : "+pid, msg)
 				server.sendmail('it1402713094@gmail.com',recv_list,message)
 			headers = {'Content-type': 'application/json'}
 			requests.post("https://laptophunt.herokuapp.com/setdata", data = json.dumps(trackData), headers=headers)
