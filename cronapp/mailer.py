@@ -25,7 +25,7 @@ cron = BlockingScheduler()
 @cron.scheduled_job('interval',id='my_job_id',minutes=args.interval)
 def send_mail():
 	try:
-		resp = requests.get("https://laptophunt.herokuapp.com/data")
+		resp = requests.get("http://0.0.0.0:8500/data")
 		trackData = resp.json()
 
 		# today = date.today()
@@ -63,11 +63,12 @@ def send_mail():
 				server.ehlo()
 				server.starttls()
 				server.ehlo()
-				server.login('it1402713094@gmail.com','flaskapp')
+				# sender's email credentials
+				server.login('email@gmail.com','password')
 				message = 'From: {}\nSubject: {}\n\n{}'.format("Price Tracker","Update on product-ID : "+pid, msg)
-				server.sendmail('it1402713094@gmail.com',recv_list,message)
+				server.sendmail('email@gmail.com',recv_list,message)
 			headers = {'Content-type': 'application/json'}
-			requests.post("https://laptophunt.herokuapp.com/setdata", data = json.dumps(trackData), headers=headers)
+			requests.post("http://0.0.0.0:8500/setdata", data = json.dumps(trackData), headers=headers)
                     
 	except Exception as e:
 		print(str(e))
